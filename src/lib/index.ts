@@ -40,7 +40,14 @@ class ServerlessIamPerFunctionPlugin {
               defaultInherit: {
                 type: 'boolean',
               },
+              defaultInherit2: {
+                type: 'boolean',
+              },
+              defaultInherit4: {
+                type: 'boolean',
+              },
             },
+            test: true,
             additionalProperties: false,
           },
         },
